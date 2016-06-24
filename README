@@ -4,8 +4,7 @@ the initial generation consists of all 0s with a single 1 in the middle.  The us
 and the neighborhood size for the CA, and choose between completely specified rule or population density options.
 Alternatively, a CA can be specified by the decimal value of its rule.
 
-This tarball contains the following:
-README
+File contents:
 CA				-- compiled program
 CA.hs				-- Haskell source code
 PPM6.hs				-- module to  create PPM files, written by PSU professor Tim Sheard

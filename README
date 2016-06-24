@@ -1,0 +1,17 @@
+This Haskell project randomly generates a one dimensional cellular automaton rule and creates two .ppm files with 
+images of the first 200 generations if the CA - one starting from a random initial generation and the other in which
+the initial generation consists of all 0s with a single 1 in the middle.  The user can select the number of states
+and the neighborhood size for the CA, and choose between completely specified rule or population density options.
+Alternatively, a CA can be specified by the decimal value of its rule.
+
+This tarball contains the following:
+README
+CA				-- compiled program
+CA.hs				-- Haskell source code
+PPM6.hs				-- module to  create PPM files, written by PSU professor Tim Sheard
+Colour.hs			-- color functions used by PPM6, writtern by PSU professor Tim Sheard 
+1D Cellular Automata.pdf	-- slide show to accompany project presentation
+
+Contact information:
+Neil Babson
+nlbabson@gmail.com
